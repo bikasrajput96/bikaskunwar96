@@ -1,0 +1,71 @@
+db name: test 
+CREATE TABLE `dynamictable` (
+  `buildNumber` int(11) NOT NULL AUTO_INCREMENT,
+  `volume` varchar(50) DEFAULT NULL,
+  `veriety` varchar(50) DEFAULT NULL,
+  `velocity` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`buildNumber`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintodoctable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintodocxtable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=624 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintojpgtable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=531 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintomp3table` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=2653 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintomp4table` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintopdftable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=532 DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintopngtable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintoxlstable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+CREATE TABLE `savedataintoxlsxtable` (
+  `docId` int(11) NOT NULL AUTO_INCREMENT,
+  `extension` varchar(5000) DEFAULT NULL,
+  `fullpath` varchar(5000) DEFAULT NULL,
+  `size` varchar(5000) DEFAULT NULL,
+  PRIMARY KEY (`docId`)
+) ENGINE=InnoDB AUTO_INCREMENT=450 DEFAULT CHARSET=utf8
